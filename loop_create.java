@@ -1,6 +1,7 @@
 import java.lang.Math;
 import java.io.File;
 import java.io.IOException;
+import java.io.Writer;
 
 public class HelloWorld
 {
@@ -32,6 +33,10 @@ public class HelloWorld
 	        e.printStackTrace();
 	  }
         
+	    //Write Content
+	File writer = new File(File);
+	writer.write("This is file: " + i);
+	writer.close();
         
         
       System.out.print("Created file: ");
